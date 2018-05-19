@@ -15,7 +15,12 @@ public class launchingBrowser {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		driver.quit();
+<<<<<<< HEAD
 		System.out.println("Adding Print Statement");
+=======
+		//Adding Commits
+
+>>>>>>> branch 'master' of https://github.com/GajananMirashe/AutomationTestingProject
 	}
 
 }
