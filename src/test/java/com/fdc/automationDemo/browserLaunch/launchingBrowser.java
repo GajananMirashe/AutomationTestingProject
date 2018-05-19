@@ -3,6 +3,7 @@ package com.fdc.automationDemo.browserLaunch;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class launchingBrowser {
 	
@@ -15,6 +16,7 @@ public class launchingBrowser {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		driver.quit();
+		
 
 	}
 	
