@@ -15,7 +15,7 @@ public class launchingBrowser {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		driver.quit();
-
+		System.out.println("Adding Print Statement");
 	}
 
 }
